@@ -2,6 +2,7 @@
 import express, { Request, Response, NextFunction } from "express";
 import todoRoutes from "./routes/todo";
 import { json } from "body-parser";
+//ここから下がサーバーの動き
 
 
 const app = express();
